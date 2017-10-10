@@ -1,50 +1,65 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <title>Example</title>
+      <title>Danny Clark: Web Developer</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
       <link rel="stylesheet" type="text/css" href="./style/main.css">
       <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script src="index.js" type="text/javascript" charset="utf-8" defer></script>
     </head>
-    <body class="container-fluid">
-      <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="#">Navbar</a>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">About</a>
-            <a class="nav-item nav-link" href="#">Projects</a>
-            <a class="nav-item nav-link" href="#">Skills</a>
-            <a class="nav-item nav-link" href="#">Resume</a>
-            <a class="nav-item nav-link" href="#">Contact</a>
+    <body>
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <!-- <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">Toggle Navigation</span>
+          </button> -->
+          <a class="navbar-brand" href="#"></a>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Skills</a></li>
+              <li><a href="#">Resume</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
           </div>
         </div>
       </nav>
       <div class="jumbotron">
-	       <div class="container">
+	       <div class="container about-me">
 		         <h1>About Me</h1>
-             <p>Text here</p>
+            </div>
+           <div class="container pic col-lg-6">
+             <img src="./images/champ.jpeg">
+           </div>
+           <div class="container col-lg-6">
+             <p>Hello, my name is Danny Clark, and I am a junior web developer.
+               I recently made a career switch after 12 years in urban education.
+               I embarked on this new career in August 2017, and have learned a ton,
+               thanks in large part to a coding bootcamp at General Assembly.
+               Look through the site to find a few projects I've created.
+            </p>
+            <p>When I am not web developing, I am an avid ultimate frisbee player
+              and coach, having competed on the national and world stage
+              (including winning a national championship! That's me with the
+              trophy to the left!).
+            </p>
 	       </div>
       </div>
       <div class="container">
+        <h1>Projects</h1>
 	       <div class="row">
 		      <div class="col-md-4">
-			         <span class="glyphicon glyphicon-cloud" aria-hidden="true"></span>
-			         <h3>Project 1</h3>
-			         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+			         <a class="project" href="https://dannyclark77.github.io/tic-tac-toe-game/index.html" target="_blank"><h3>Tic-Tac-Toe Game</h3></a>
+			         <p>For my first project at General Assembly, I created and designed the front-end of a tic-tac-toe game that connected to a back-end that was designed for us. The front-end app uses html, css, javascript, jquery, and AJAX to create the site.</p>
+               <p>The github repo for the site can be found <a href="https://github.com/dannyclark77/tic-tac-toe-game" target="_blank">here</a>.</p>
 		      </div>
 		      <div class="col-md-4">
-			         <span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>
 			         <h3>Project 2</h3>
 			         <p>Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Lorem ipsum dolor.</p>
 		      </div>
 		      <div class="col-md-4">
-			         <span class="glyphicon glyphicon-console" aria-hidden="true"></span>
 			         <h3>Project 3</h3>
 			         <p>Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
 		      </div>
@@ -58,12 +73,13 @@
         <h1>Resume</h1>
         <p>Text here</p>
       </div>
-      <footer>
-        <a class="footer" href="#">About</a>
-        <a class="footer" href="#">Projects</a>
-        <a class="footer" href="#">Skills</a>
-        <a class="footer" href="#">Resume</a>
-        <a class="footer" href="#">Contact</a>
+      <div class="container">
+        <h1>Contact</h1>
+        <p>Text here</p>
+      <footer class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container">
+          <ul class="navbar-right">Created by Danny Clark</ul>
+        </div>
       </footer>
     </body>
 </html>
