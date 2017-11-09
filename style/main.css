@@ -8,6 +8,7 @@ body {
 	background: #FFFFFF;
 	color: #f7f7f7;
 	font-family: 'Montserrat', sans-serif;
+
   padding-top: 70px;
   padding-bottom: 70px;
 }
@@ -16,6 +17,7 @@ h1,
 h2 {
 	font-weight: bold;
   color: #6EA9EC;
+  font-family: 'Vollkorn SC', serif;
 }
 
 h3 {
@@ -28,11 +30,13 @@ p {
 }
 
 .jumbotron {
-	background: #6EA9EC;
+  background-image: url(../images/background-3.jpg);
+  background-size: cover;
 	color: #FACB83;
+  height: 700px;
 	text-align: center;
-  height: 800px;
   padding-top: 0;
+  position: relative;
 }
 
 .jumbotron p {
@@ -60,4 +64,43 @@ img {
 
 .about-me {
   padding: 0 0 30px 0;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.intro-page {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 50%;
+  height: 60%;
+  margin: auto;
+}
+
+.intro-page h1, h2, h3 {
+  color: #6EA9EC;
+  font-family: 'Vollkorn SC', serif;
+}
+
+.button {
+  list-style: none;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.btn {
+  background-color: #6EA9EC;
 }

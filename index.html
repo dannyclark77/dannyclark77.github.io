@@ -3,7 +3,7 @@
     <head>
       <title>Danny Clark: Web Developer</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
-
+      <link href="https://fonts.googleapis.com/css?family=Vollkorn+SC" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="./style/main.css">
       <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script src="index.js" type="text/javascript" charset="utf-8" defer></script>
@@ -17,37 +17,51 @@
           <a class="navbar-brand" href="#"></a>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">Skills</a></li>
-              <li><a href="#">Resume</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#project">Projects</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#resume">Resume</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
         </div>
       </nav>
-      <div class="jumbotron">
-	       <div class="container about-me">
-		         <h1>About Me</h1>
-            </div>
-           <div class="container pic col-lg-6">
-             <img src="./images/champ.jpeg" alt="championship picture">
-           </div>
-           <div class="container col-lg-6">
-             <p>Hello, my name is Danny Clark, and I am a junior web developer.
-               I recently made a career switch after 12 years in urban education.
-               I embarked on this new career in August 2017, and have learned a ton,
-               thanks in large part to a coding bootcamp at General Assembly.
-               Look through the site to find a few projects I've created.
-            </p>
-            <p>When I am not web developing, I am an avid ultimate frisbee player
-              and coach, having competed on the national and world stage
-              (including winning a national championship! That's me with the
-              trophy to the left!).
-            </p>
-	       </div>
+      <div class='jumbotron' id='home'>
+        <div class='intro-page'>
+          <h1>Danny Clark</h1>
+          <h3>Full-Stack Web Developer</h3>
+          <ul class='button'>
+            <li>
+              <a href='https://github.com/dannyclark77' class='btn btn-primary btn-lg'>Github</a>
+            </li>
+            <li>
+              <a href='www.linkedin.com/in/daniel-clark77' class='btn btn-primary btn-lg'>LinkedIn</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="container">
+      <div class="container" id='about'>
+        <div class='about-me'>
+          <h1>About Me</h1>
+        </div>
+        <div class="container pic col-lg-6">
+          <img src="./images/champ.jpeg" alt="championship picture">
+        </div>
+        <div class="container col-lg-6">
+          <p>Hello, my name is Danny Clark, and I am a junior web developer.
+            I recently made a career switch after 12 years in urban education.
+            I embarked on this new career in August 2017, and have learned a ton,
+            thanks in large part to a coding bootcamp at General Assembly.
+            Look through the site to find a few projects I've created.
+          </p>
+          <p>When I am not web developing, I am an avid ultimate frisbee player
+           and coach, having competed on the national and world stage
+           (including winning a national championship! That's me with the
+           trophy to the left!).
+          </p>
+       </div>
+      </div>
+      <div class="container" id='project'>
         <h1>Projects</h1>
 	       <div class="row">
 		      <div class="col-md-4">
@@ -67,11 +81,12 @@
 		      </div>
 	       </div>
       </div>
-      <div class="container">
+      <div class="container" id='skills'>
         <h1>Skills</h1>
+        <i class='devicon-css3-plain-wordmark'></i>
         <p>Text here</p>
       </div>
-      <div class="container">
+      <div class="container" id='resume'>
         <h1>Resume</h1>
         <div id ="pdfView">
           <a class="pdf" href="./images/Daniel_Clark_Resume.pdf">View My Resume</a>
@@ -79,13 +94,22 @@
           <a class="pdf" href="./images/Daniel_Clark_Resume.pdf" download>Download My Resume</a>
         </div>
       </div>
-      <div class="container">
+      <div class="container" id='contact'>
         <h1>Contact</h1>
         <p>Text here</p>
       </div>
-      <footer class="navbar navbar-default navbar-fixed-bottom">
+      <footer class="navbar navbar-default footer">
         <div class="container">
-          <ul class="navbar-right">Created by Danny Clark</ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="container">
+          <ul class="navbar-right">Created by Danny Clark &copy; 2017</ul>
         </div>
       </footer>
     </body>
