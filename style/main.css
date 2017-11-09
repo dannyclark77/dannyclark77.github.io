@@ -1,4 +1,6 @@
 @import 'bootstrap.css';
+@import 'devicon.css';
+@import 'devicon-colors.css';
 
 .navbar {
 	margin-bottom: 0;
@@ -8,7 +10,6 @@ body {
 	background: #FFFFFF;
 	color: #f7f7f7;
 	font-family: 'Montserrat', sans-serif;
-
   padding-top: 70px;
   padding-bottom: 70px;
 }
@@ -58,8 +59,8 @@ a {
 }
 
 img {
-  height: 500px;
-  width: auto;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .about-me {
@@ -103,4 +104,41 @@ li {
 
 .btn {
   background-color: #6EA9EC;
+}
+
+#about {
+  padding: 0 0 30px;
+  border-bottom: 2px solid #6EA9EC;
+}
+
+#project {
+  padding: 0 0 30px;
+  border-bottom: 2px solid #6EA9EC;
+}
+
+#skills {
+  padding: 0 0 30px;
+  border-bottom: 2px solid #6EA9EC;
+}
+
+#resume {
+  padding: 0 0 30px;
+  border-bottom: 2px solid #6EA9EC;
+}
+
+#contact {
+  padding: 0 0 30px;
+}
+
+#write-up {
+  padding: 70px 0;
+  text-align: center;
+}
+
+#write-up p {
+  font-size: 20px;
+}
+
+.skills-icons {
+  font-size: 100px;
 }
