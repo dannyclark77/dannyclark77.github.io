@@ -142,3 +142,8 @@ li {
 .skills-icons {
   font-size: 100px;
 }
+
+.resume {
+  height: 500px;
+  width: auto;
+}
