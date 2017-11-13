@@ -87,8 +87,8 @@ img {
   margin: auto;
 }
 
-.intro-page h1, h2, h3 {
-  color: #6EA9EC;
+.intro-page h1, .intro-page h2, .intro-page h3 {
+  color: #FFFFFF;
   font-family: 'Vollkorn SC', serif;
 }
 
@@ -146,4 +146,8 @@ li {
 .resume {
   height: 500px;
   width: auto;
+}
+
+.row {
+  margin: 50px 0;
 }
